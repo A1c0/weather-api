@@ -1,0 +1,9 @@
+{
+  "singleQuote": true,
+  "bracketSpacing": false,
+  "printWidth": 80,
+  "arrowParens": "avoid",
+  "plugins": [
+    "prettier-plugin-organize-imports"
+  ]
+}
