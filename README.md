@@ -26,3 +26,7 @@ And now you can deploy the API
 pnpm run cdk deploy
 ```
 
+## Notes
+
+Version 1 (no cache with dynamodb) is working (git tag v1).
+For version 2, I don't understand why I can't write to the database (I haven't found anything in the cloudwatch logs).
