@@ -1,14 +1,28 @@
-# Welcome to your CDK TypeScript project
+# Weather api
 
-This is a blank project for CDK development with TypeScript.
+# How to deploy and run
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+## Prerequites
 
-## Useful commands
+install Node.js and PNPM. I recommend to use [Proto](https://moonrepo.dev/proto) for this:
+```sh
+proto use # to pull pinned node and pnpm version
+```
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+## Install and run the project
+
+Install first the project dependencies with `pnpm`
+```sh
+pnpm install
+```
+
+Then you need to build the project
+```sh
+pnpm run build
+```
+
+And now you can deploy the API
+```
+pnpm run cdk deploy
+```
+
